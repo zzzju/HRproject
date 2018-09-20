@@ -110,6 +110,7 @@ public:
 	string HR_PI_B(LISTHR d);//蓝牙压力指数
 	string HR_SI(LISTHR d);//稳定指数
 	string HP(LISTHP d);//血压(暂无)
+	double Rest_HR(LISTHR);//静息指数
 	void HRMonitor(LISTHR d, period p);//分析函数
 
 };
